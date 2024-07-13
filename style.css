@@ -1,0 +1,105 @@
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    .head {
+        height: 70px;
+        width: 100%;
+        background-color: darkgreen;
+    }
+/* +++++++++++++++++++++++logo++++++++++++++++++++++++ */
+    .logo {
+        height: inherit;
+        width: 100px;
+        color: white;
+        float: left;
+        padding-left: 20px;
+        padding-top: 20px;
+        font-size: 20px;
+    }
+/* ++++++++++++++++++++++++++++link++++++++++++++++++++++++++++++ */
+    .link {
+        height: inherit;
+        width: 480px;
+        color: black;
+        float: right;
+        padding-left: 40px;
+        padding-top: 20px;
+    }
+
+    .head a:link {
+        padding: 30px;
+        color: white;
+    }
+/* ++++++++++++++++++++++++++++++main+++++++++++++++++++++++++++++++ */
+    .main {
+        height: 655px;
+        width: 100%;
+        background-image: linear-gradient(180deg, blue 30%, cyan 70%);
+    }
+/* +++++++++++++++++++++++++++++++++part1+++++++++++++++++++++++++++++++ */
+    .part1 {
+        height: inherit;
+        width: 50%;
+        float: left;
+    }
+
+    h1 {
+        font-family: "Roboto Slab", serif;
+        font-optical-sizing: auto;
+        font-weight: 700;
+        font-style: normal;
+        font-size: 50px;
+        padding-top: 230px;
+        padding-left: 70px;
+    }
+
+    p {
+        font-family: "Space Grotesk", sans-serif;
+        font-optical-sizing: auto;
+        font-style: normal;
+        word-spacing: 5px;
+        padding-left: 70px;
+    }
+
+    button {
+        height: 50px;
+        width: 110px;
+        background-color: chocolate;
+        font-size: 15px;
+        margin-left: 60px;
+        transform: translateX(0px);
+        transform: translateY(10px);
+        transform: translate(10px, 10px);
+        transform: scaleX(Z);
+        transform: scaleY(Z);
+        transition: scale(Z, Z);
+    }
+
+    div:hover button {
+        transform: rotate(360deg);
+    }
+/* ++++++++++++++++++++++++++++++++++++part2++++++++++++++++++++++++++++ */
+    .part2 {
+        height: inherit;
+        width: 50%;
+        float: right;
+        padding-left: 50px;
+        padding-top: 60px;
+    }
+
+    img {
+        height: 590px;
+        width: 540px;
+        padding-left: 100px;
+    }
+
+    i {
+        height: 50px;
+        width: 50px;
+        padding-left: 350px;
+        
+        color: white;
+    }
